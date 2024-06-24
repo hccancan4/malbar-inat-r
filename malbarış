@@ -1,0 +1,40 @@
+isim = input("Barış mal mı ? ")
+isim2 = isim.lower()
+
+if isim2 == "evet":
+  soru1 = input("Barış ne kadar mal 10 üzerinden ? ")
+
+  if soru1 == "10":
+    print("BASED")
+
+  elif int(soru1) <= 9 and int(soru1) >= 7:
+    print("Yani saygı duymak lazım ama sen yine de bir daha düşün")
+
+  else:
+    isim3 = input("akp li misin ? ")
+    isim4 = isim3.lower()
+
+    if isim4 == "evet":
+      print("hmm anlaşılabilir")
+
+    elif isim4 == "hayır ama marmaralıyım":
+      print("FİNALLY A WORTHY OPPONENT FOR BARIŞ")
+    else:
+      print("ŞEY Dİ Mİ BÖYLE MANASIZ")
+
+elif isim2 == "hayır":
+  print("Ha yok")
+
+elif isim2 == "kağan":
+  print("e süper")
+
+elif isim2 == "ben barış":
+  print("!!!!!ACİL DURUM!!!!!")
+  print("HAAAAAAAAA İMHAAAAAAAAAAA PROTOKOLÜNE GEÇİYORUZ BARIŞ TESPİT EDİLDİ DİKKAT DAĞITICI METNİ YAYINLAYIN")
+  print("YILDIZ IN AYAKLARI DA YALANIR ÜF ŞLOP SLOP ")
+
+elif isim2 == "mal":
+  print("Sana da nikah basılır he")
+
+else:
+ print("fA")
